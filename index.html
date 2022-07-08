@@ -18,12 +18,12 @@
 		<meta name="description" content="Peter Hall is an experienced DevOps engineer and cyber security professional who specialises in delivery exceptional digital experiences." />
     	<meta name="robots" content="noindex" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-		<link rel="stylesheet" href="/static/styles.css" />
+		<link rel="stylesheet" href="styles.css" />
     	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
     <title>Peter Hall</title>
   </head>
-  <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <body class="bg-light">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark pl-4">
 		<a class="navbar-brand" href="https://www.peterhall.com.au">Peter Hall 🍍</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
@@ -31,30 +31,48 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		  <ul class="navbar-nav mr-auto">
 			<li class="nav-item active">
-			  <a class="nav-link" href="#about">About Me <span class="sr-only">(current)</span></a>
+			  <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
 			</li>
-			<!-- <li class="nav-item">
-				<a class="nav-link active" href="#skills">Skills & Experience</a>
+				<a class="nav-link active" href="#skills">Skills</a>
+			</li>
+			<!--
+			<li>
+				<a class="nav-link active" href="#experience">Experience</a>
 			</li>
 			<li>
-				<a class="nav-link active" href="#Projects">Projects</a>
-			</li> -->
+				<a class="nav-link active" href="projects">Projects</a>
+			</li>-->
 			<li class="nav-item">
-			  <a class="nav-link active" href="#connect">Connect with Me</a>
+			  <a class="nav-link active" href="#connect">Connect</a>
 			</li>
 		  </ul>
 		</div>
 	  </nav>
-	<h1 id="#home">Peter Hall</h1>
+	  <div class="mx-4 py-2">
+	  <h1 id="#home">Peter Hall</h1>
 	<p class="lead">DevOps & Cyber Security Professional | Newcastle, NSW</p>
-	<h2 id="about">About Me</h2>
+	<h2 id="about">About</h2>
+	<img src="https://dev.peterhall.com.au/static/images/profile-picture.png" class="img-max pb-2" alt="Peter Hall" />
 	<p>Hi, my name is Peter Hall. I develop applications and defend organisations against cyber threats. I'm an experienced professional specialising in <strong>DevOps engineering</strong> and <strong>cyber security</strong> in the higher education sector with over 4 years experience. Currently based in <strong>Newcastle, NSW.</strong></p>
-	<h2 id="connect">Connect with Me</h2>
-	<ul class="list-inline">
-		<li class="list-inline-item"><a href="https://github.com/phall-au">GitHub</a></li>|
-		<li class="list-inline-item"><a href="https://linkedin.com/in/PeterHallAU">LinkedIn</a></li>|
-		<li class="list-inline-item"><a href="https://twitter.com/PeterHallAU">Twitter</a></li>
+	<h2 id="skills">Skills</h2>
+	<ul>
+		<li>Cloud Computing (Primary: AWS; Secondary: Azure)</li>
+		<li>Scripting (PowerShell, Bash)</li>
+		<li>DevOps</li>
+		<li>Email and network security</li>
+		<li>Leadership</li>
+		<li>Project management</li>
 	</ul>
+	<h2 id="connect">Connect</h2>
+	<ul class="list-group">
+		<li class="list-group-item"><a href="https://github.com/phall-au"><img width="24px" alt="GitHub" class="mr-2" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjUwIiBoZWlnaHQ9IjI1MCIKdmlld0JveD0iMCAwIDUwIDUwIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPiAgICA8cGF0aCBkPSJNMTcuNzkxLDQ2LjgzNkMxOC41MDIsNDYuNTMsMTksNDUuODIzLDE5LDQ1di01LjRjMC0wLjE5NywwLjAxNi0wLjQwMiwwLjA0MS0wLjYxQzE5LjAyNywzOC45OTQsMTkuMDE0LDM4Ljk5NywxOSwzOSBjMCwwLTMsMC0zLjYsMGMtMS41LDAtMi44LTAuNi0zLjQtMS44Yy0wLjctMS4zLTEtMy41LTIuOC00LjdDOC45LDMyLjMsOS4xLDMyLDkuNywzMmMwLjYsMC4xLDEuOSwwLjksMi43LDJjMC45LDEuMSwxLjgsMiwzLjQsMiBjMi40ODcsMCwzLjgyLTAuMTI1LDQuNjIyLTAuNTU1QzIxLjM1NiwzNC4wNTYsMjIuNjQ5LDMzLDI0LDMzdi0wLjAyNWMtNS42NjgtMC4xODItOS4yODktMi4wNjYtMTAuOTc1LTQuOTc1IGMtMy42NjUsMC4wNDItNi44NTYsMC40MDUtOC42NzcsMC43MDdjLTAuMDU4LTAuMzI3LTAuMTA4LTAuNjU2LTAuMTUxLTAuOTg3YzEuNzk3LTAuMjk2LDQuODQzLTAuNjQ3LDguMzQ1LTAuNzE0IGMtMC4xMTItMC4yNzYtMC4yMDktMC41NTktMC4yOTEtMC44NDljLTMuNTExLTAuMTc4LTYuNTQxLTAuMDM5LTguMTg3LDAuMDk3Yy0wLjAyLTAuMzMyLTAuMDQ3LTAuNjYzLTAuMDUxLTAuOTk5IGMxLjY0OS0wLjEzNSw0LjU5Ny0wLjI3LDguMDE4LTAuMTExYy0wLjA3OS0wLjUtMC4xMy0xLjAxMS0wLjEzLTEuNTQzYzAtMS43LDAuNi0zLjUsMS43LTVjLTAuNS0xLjctMS4yLTUuMywwLjItNi42IGMyLjcsMCw0LjYsMS4zLDUuNSwyLjFDMjEsMTMuNCwyMi45LDEzLDI1LDEzczQsMC40LDUuNiwxLjFjMC45LTAuOCwyLjgtMi4xLDUuNS0yLjFjMS41LDEuNCwwLjcsNSwwLjIsNi42YzEuMSwxLjUsMS43LDMuMiwxLjYsNSBjMCwwLjQ4NC0wLjA0NSwwLjk1MS0wLjExLDEuNDA5YzMuNDk5LTAuMTcyLDYuNTI3LTAuMDM0LDguMjA0LDAuMTAyYy0wLjAwMiwwLjMzNy0wLjAzMywwLjY2Ni0wLjA1MSwwLjk5OSBjLTEuNjcxLTAuMTM4LTQuNzc1LTAuMjgtOC4zNTktMC4wODljLTAuMDg5LDAuMzM2LTAuMTk3LDAuNjYzLTAuMzI1LDAuOThjMy41NDYsMC4wNDYsNi42NjUsMC4zODksOC41NDgsMC42ODkgYy0wLjA0MywwLjMzMi0wLjA5MywwLjY2MS0wLjE1MSwwLjk4N2MtMS45MTItMC4zMDYtNS4xNzEtMC42NjQtOC44NzktMC42ODJDMzUuMTEyLDMwLjg3MywzMS41NTcsMzIuNzUsMjYsMzIuOTY5VjMzIGMyLjYsMCw1LDMuOSw1LDYuNlY0NWMwLDAuODIzLDAuNDk4LDEuNTMsMS4yMDksMS44MzZDNDEuMzcsNDMuODA0LDQ4LDM1LjE2NCw0OCwyNUM0OCwxMi4zMTgsMzcuNjgzLDIsMjUsMlMyLDEyLjMxOCwyLDI1IEMyLDM1LjE2NCw4LjYzLDQzLjgwNCwxNy43OTEsNDYuODM2eiI+PC9wYXRoPjwvc3ZnPg=="/>GitHub</a></li>
+		<li class="list-group-item"><a href="https://linkedin.com/in/PeterHallAU"><img width="24px" alt="LinkedIn" class="mr-2" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQwIiBoZWlnaHQ9IjI0MCIKdmlld0JveD0iMCAwIDQ4IDQ4IgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxwYXRoIGZpbGw9IiMwMDc4ZDQiIGQ9Ik00MiwzN2MwLDIuNzYyLTIuMjM4LDUtNSw1SDExYy0yLjc2MSwwLTUtMi4yMzgtNS01VjExYzAtMi43NjIsMi4yMzktNSw1LTVoMjZjMi43NjIsMCw1LDIuMjM4LDUsNQlWMzd6Ij48L3BhdGg+PHBhdGggZD0iTTMwLDM3VjI2LjkwMWMwLTEuNjg5LTAuODE5LTIuNjk4LTIuMTkyLTIuNjk4Yy0wLjgxNSwwLTEuNDE0LDAuNDU5LTEuNzc5LDEuMzY0CWMtMC4wMTcsMC4wNjQtMC4wNDEsMC4zMjUtMC4wMzEsMS4xMTRMMjYsMzdoLTdWMThoN3YxLjA2MUMyNy4wMjIsMTguMzU2LDI4LjI3NSwxOCwyOS43MzgsMThjNC41NDcsMCw3LjI2MSwzLjA5Myw3LjI2MSw4LjI3NAlMMzcsMzdIMzB6IE0xMSwzN1YxOGgzLjQ1N0MxMi40NTQsMTgsMTEsMTYuNTI4LDExLDE0LjQ5OUMxMSwxMi40NzIsMTIuNDc4LDExLDE0LjUxNCwxMWMyLjAxMiwwLDMuNDQ1LDEuNDMxLDMuNDg2LDMuNDc5CUMxOCwxNi41MjMsMTYuNTIxLDE4LDE0LjQ4NSwxOEgxOHYxOUgxMXoiIG9wYWNpdHk9Ii4wNSI+PC9wYXRoPjxwYXRoIGQ9Ik0zMC41LDM2LjV2LTkuNTk5YzAtMS45NzMtMS4wMzEtMy4xOTgtMi42OTItMy4xOThjLTEuMjk1LDAtMS45MzUsMC45MTItMi4yNDMsMS42NzcJYy0wLjA4MiwwLjE5OS0wLjA3MSwwLjk4OS0wLjA2NywxLjMyNkwyNS41LDM2LjVoLTZ2LTE4aDZ2MS42MzhjMC43OTUtMC44MjMsMi4wNzUtMS42MzgsNC4yMzgtMS42MzgJYzQuMjMzLDAsNi43NjEsMi45MDYsNi43NjEsNy43NzRMMzYuNSwzNi41SDMwLjV6IE0xMS41LDM2LjV2LTE4aDZ2MThIMTEuNXogTTE0LjQ1NywxNy41Yy0xLjcxMywwLTIuOTU3LTEuMjYyLTIuOTU3LTMuMDAxCWMwLTEuNzM4LDEuMjY4LTIuOTk5LDMuMDE0LTIuOTk5YzEuNzI0LDAsMi45NTEsMS4yMjksMi45ODYsMi45ODljMCwxLjc0OS0xLjI2OCwzLjAxMS0zLjAxNSwzLjAxMUgxNC40NTd6IiBvcGFjaXR5PSIuMDciPjwvcGF0aD48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTIsMTloNXYxN2gtNVYxOXogTTE0LjQ4NSwxN2gtMC4wMjhDMTIuOTY1LDE3LDEyLDE1Ljg4OCwxMiwxNC40OTlDMTIsMTMuMDgsMTIuOTk1LDEyLDE0LjUxNCwxMgljMS41MjEsMCwyLjQ1OCwxLjA4LDIuNDg2LDIuNDk5QzE3LDE1Ljg4NywxNi4wMzUsMTcsMTQuNDg1LDE3eiBNMzYsMzZoLTV2LTkuMDk5YzAtMi4xOTgtMS4yMjUtMy42OTgtMy4xOTItMy42OTgJYy0xLjUwMSwwLTIuMzEzLDEuMDEyLTIuNzA3LDEuOTlDMjQuOTU3LDI1LjU0MywyNSwyNi41MTEsMjUsMjd2OWgtNVYxOWg1djIuNjE2QzI1LjcyMSwyMC41LDI2Ljg1LDE5LDI5LjczOCwxOQljMy41NzgsMCw2LjI2MSwyLjI1LDYuMjYxLDcuMjc0TDM2LDM2TDM2LDM2eiI+PC9wYXRoPjwvc3ZnPg=="/>LinkedIn</a></li>
+		<li class="list-group-item"><a href="https://twitter.com/PeterHallAU"><img width="24px" alt="Twitter" class="mr-2" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQwIiBoZWlnaHQ9IjI0MCIKdmlld0JveD0iMCAwIDQ4IDQ4IgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxsaW5lYXJHcmFkaWVudCBpZD0iX29zbjl6SU4yZjZSaFRzWThXaFk0YV81TVEwZ1BBWVl4N2FfZ3IxIiB4MT0iMTAuMzQxIiB4Mj0iNDAuNzk4IiB5MT0iOC4zMTIiIHkyPSIzOC43NjkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMyYWE0ZjQiPjwvc3RvcD48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwMDdhZDkiPjwvc3RvcD48L2xpbmVhckdyYWRpZW50PjxwYXRoIGZpbGw9InVybCgjX29zbjl6SU4yZjZSaFRzWThXaFk0YV81TVEwZ1BBWVl4N2FfZ3IxKSIgZD0iTTQ2LjEwNSwxMS4wMmMtMS41NTEsMC42ODctMy4yMTksMS4xNDUtNC45NzksMS4zNjJjMS43ODktMS4wNjIsMy4xNjYtMi43NTYsMy44MTItNC43NTgJYy0xLjY3NCwwLjk4MS0zLjUyOSwxLjcwMi01LjUwMiwyLjA4MkMzNy44Niw4LjAzNiwzNS42MTIsNywzMy4xMjIsN2MtNC43ODMsMC04LjY2MSwzLjg0My04LjY2MSw4LjU4MgljMCwwLjY3MSwwLjA3OSwxLjMyNCwwLjIyNiwxLjk1OGMtNy4xOTYtMC4zNjEtMTMuNTc5LTMuNzgyLTE3Ljg0OS04Ljk3NGMtMC43NSwxLjI2OS0xLjE3MiwyLjc1NC0xLjE3Miw0LjMyMgljMCwyLjk3OSwxLjUyNSw1LjYwMiwzLjg1MSw3LjE0N2MtMS40Mi0wLjA0My0yLjc1Ni0wLjQzOC0zLjkyNi0xLjA3MmMwLDAuMDI2LDAsMC4wNjQsMCwwLjEwMWMwLDQuMTYzLDIuOTg2LDcuNjMsNi45NDQsOC40MTkJYy0wLjcyMywwLjE5OC0xLjQ4OCwwLjMwOC0yLjI3NiwwLjMwOGMtMC41NTksMC0xLjEwNC0wLjA2My0xLjYzMi0wLjE1OGMxLjEwMiwzLjQwMiw0LjI5OSw1Ljg4OSw4LjA4Nyw1Ljk2MwljLTIuOTY0LDIuMjk4LTYuNjk3LDMuNjc0LTEwLjc1NiwzLjY3NGMtMC43MDEsMC0xLjM4Ny0wLjA0LTIuMDY1LTAuMTIyQzcuNzMsMzkuNTc3LDEyLjI4Myw0MSwxNy4xNzEsNDEJYzE1LjkyNywwLDI0LjY0MS0xMy4wNzksMjQuNjQxLTI0LjQyNmMwLTAuMzcyLTAuMDEyLTAuNzQyLTAuMDI5LTEuMTA4QzQzLjQ4MywxNC4yNjUsNDQuOTQ4LDEyLjc1MSw0Ni4xMDUsMTEuMDIiPjwvcGF0aD48L3N2Zz4="/>Twitter</a></li>
+	</ul> 
+</div>
+<footer class="mx-4">
+	<small><a target="_blank" href="https://icons8.com/icon/AZOZNnY73haj/github">GitHub</a>, <a target="_blank" href="https://icons8.com/icon/xuvGCOXi8Wyg/linkedin">LinkedIn</a>, and <a target="_blank" href="https://icons8.com/icon/5MQ0gPAYYx7a/twitter">Twitter</a> icons by <a target="_blank" href="https://icons8.com">Icons8</a></small>
+</footer>
 	<!-- Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
