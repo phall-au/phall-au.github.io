@@ -1,8 +1,9 @@
-.img-max {
-    max-width: 250px;
-    width:100%;
-  }
+.img-portrait {
+  max-width: 500px;
+  width: 100vw;
+  height: auto;
+}
 
 .body-color {
-    background-color: #0b192f;
-  }
+  background-color: #0b192f;
+}
