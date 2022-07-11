@@ -1,7 +1,7 @@
 .img-portrait {
   max-width: 300px;
   width: 100vw;
-  height: auto;
+  margin-left: 7pt;
 }
 
 .body-color {
